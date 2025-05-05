@@ -34,8 +34,8 @@ export const metadata = {
     title: "Henry Adetunji Odunsi | Frontend Developer Profile Card",
     description:
       "Explore the work and skills of frontend developer Henry Odunsi. Built with Next.js, Tailwind CSS, and Framer Motion.",
-    url: "https://henry-odunsi.onrender.com",
-    siteName: "Henry Odunsi Portfolio",
+    url: "https://henry-profile.vercel.app",
+    siteName: "Henry Odunsi Profile Card",
     images: [
       {
         url: "/images/Nrytech.jpg",
