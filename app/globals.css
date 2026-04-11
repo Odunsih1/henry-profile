@@ -6,32 +6,6 @@
 :root {
   --background: 222 47% 11%;
   --foreground: 210 40% 98%;
-  --card: 222 47% 14%;
-  --card-foreground: 210 40% 98%;
-  --popover: 222 47% 11%;
-  --popover-foreground: 210 40% 98%;
-  --primary: 252 94% 75%;
-  --primary-foreground: 222 47% 11%;
-  --secondary: 217 91% 60%;
-  --secondary-foreground: 210 40% 98%;
-  --muted: 217 33% 18%;
-  --muted-foreground: 215 20% 65%;
-  --accent: 217 33% 18%;
-  --accent-foreground: 210 40% 98%;
-  --destructive: 0 63% 31%;
-  --destructive-foreground: 210 40% 98%;
-  /* --border: 217 33% 20%; */
-  --input: 217 33% 18%;
-  --ring: 224 76% 48%;
-  --radius: 0.5rem;
-  --sidebar-background: 222 47% 11%;
-  --sidebar-foreground: 210 40% 98%;
-  --sidebar-primary: 224 76% 48%;
-  --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 217 33% 18%;
-  --sidebar-accent-foreground: 210 40% 98%;
-  --sidebar-border: 217 33% 20%;
-  --sidebar-ring: 224 76% 48%;
   --crypto-blue: #3b82f6;
   --crypto-purple: #8b5cf6;
   --crypto-pink: #ec4899;
@@ -191,7 +165,7 @@ body {
   left: -0.25rem;
   right: -0.25rem;
   bottom: -0.25rem;
-  background-color: var(--crypto-purple);
+  background-color: rgb(255, 46, 40);
   opacity: 0.7;
   filter: blur(8px);
   animation: pulse-glow 2s ease-in-out infinite;
@@ -203,7 +177,7 @@ body {
     135deg,
     var(--crypto-purple),
     var(--crypto-blue),
-    var(--crypto-pink)
+    rgb(255, 46, 46)
   );
   padding: 0.125rem;
   position: relative;
@@ -595,7 +569,7 @@ body {
   66% {
     content: "..";
   }
-  100% {
+  99% {
     content: "...";
   }
 }
@@ -604,7 +578,7 @@ body {
   content: "";
   display: inline-block;
   animation: typing-ellipsis 1.5s infinite steps(1);
-  width: 1.5ch; /* Reserve space for "..." */
+  width: 1.9ch; /* Reserve space for "..." */
 }
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {

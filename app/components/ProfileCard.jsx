@@ -68,7 +68,7 @@ const ProfileCard = () => {
             </a>
             <a
               className="social-link text-purple-400"
-              href="https://henry-odunsi.onrender.com/"
+              href="https://henryodunsi.com/"
             >
               {" "}
               <Link
