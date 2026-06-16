@@ -34,7 +34,7 @@ export const metadata = {
     title: "Henry Adetunji Odunsi | Frontend Developer Profile Card",
     description:
       "Explore the work and skills of frontend developer Henry Odunsi. Built with Next.js, Tailwind CSS, and Framer Motion.",
-    url: "https://henry-profile.vercel.app",
+    url: "https://henryodunsi.com",
     siteName: "Henry Odunsi Profile Card",
     images: [
       {
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <script
-          src="https://cdn.jsdelivr.net/gh/Odunsih1/ally@v1.2.0/accessibility-launcher.v1.2.0.min.js"
+          src="https://cdn.jsdelivr.net/gh/Odunsih1/ally@v1.2.1/accessibility-launcher.v1.2.1.min.js"
           defer
         />
         {children}
